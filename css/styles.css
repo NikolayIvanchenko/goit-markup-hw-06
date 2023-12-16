@@ -89,7 +89,7 @@ img {
   color: #2e2f42;
 }
 /* MOBILE HEADER STYLES   */
-@media and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .mobile-menu-open-btn {
     border-color: transparent;
     border: none;
@@ -174,11 +174,3 @@ img {
   }
 }
 /* DESKTOP HEADER STYLES   */
-color: var(--NAVY-BLUE, #2e2f42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
