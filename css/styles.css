@@ -296,7 +296,7 @@ img {
 }
 
 .review-form-comment {
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.04em;
