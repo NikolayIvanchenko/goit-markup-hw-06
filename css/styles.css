@@ -1624,15 +1624,60 @@ img {
 
   .benefits-text {
     color: #434455;
-
-    /* Body */
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     color: #434455;
+    width: 264px;
+  }
+
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  section-team-person {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #ffffff;
+  }
+
+  .our-section-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    padding-left: 0;
+  }
+
+  .list-portfolio {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: calc((100% - 72px) / 3);
+  }
+
+  .footer {
+    max-height: 312px;
+  }
+
+  .main-footer-div {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+  }
+
+  .footer-logo-div {
+    margin-right: 120px;
+  }
+
+  .form-footer {
+    margin-left: 80px;
+  }
+
+  .footer-text {
     width: 264px;
   }
 }
