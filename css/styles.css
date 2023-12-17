@@ -1037,6 +1037,123 @@ img {
   .mobile-menu-navigation {
     margin-bottom: auto;
   }
+  .hero-section {
+    background-color: #2e2f42;
+    padding: 76px 0px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mobile-Dark-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    height: 432px;
+    background-position: center;
+    margin: 0 auto;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resoludion: 2dppx),
+    screen and (min-device-pixel-radio: 2) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/mobile-Dark-bg@2x.jpg);
+    }
+  }
+
+  .first-section {
+    width: 288px;
+  }
+
+  .hero-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-align: center;
+    height: 160px;
+    width: 169px;
+    color: var(--WHITE, #fff);
+    text-transform: capitalize;
+    margin-top: 72px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+
+  .hero-button {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: auto;
+    font-size: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-button :hover,
+  .hero-button :focus {
+    background-color: #404bbf;
+  }
+
+  .benefits-list-link {
+    display: none;
+  }
+
+  .list-benefits {
+    margin-bottom: 72px;
+  }
+
+  .benefits {
+    padding-top: 96px;
+  }
+
+  .benefits-title {
+    align-self: stretch;
+    color: var(--NAVY-BLUE, #2e2f42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .benefits-text {
+    align-self: stretch;
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+  }
 }
 
 /* MOBILE STYLES   */
@@ -1045,6 +1162,20 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
+  }
+
+  .hero-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+  }
+
+  .main-header {
+    height: 72px;
+    border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+    background: var(--WHITE, #fff);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   }
 
   .mobile-menu-open-btn {
@@ -1056,12 +1187,276 @@ img {
   }
 
   .list-header {
+    width: 261px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    color: #2e2f42;
+  }
+
+  .header-link {
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: #404bbf;
+  }
+
+  .address {
+    top: 16px;
+    line-height: 14px;
+    width: 119px;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contacts-link {
+    line-height: 14px;
+  }
+
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: #404bbf;
+  }
+
+  .contact-info {
+    display: flex;
+  }
+
+  .page-nav {
+    display: flex;
+  }
+
+  .list-header {
     display: flex;
   }
 
   .address {
     display: flex;
   }
+
+  .header-link {
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .studio::after {
+    content: "";
+    display: flex;
+    width: 48px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--OCEAN, #404bbf);
+    border-radius: 2px;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+
+  .hero-section {
+    background-color: #2e2f42;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/img-name-Tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+
+    background-position: center;
+    margin: 0 auto;
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resoludion: 2dppx),
+    screen and (min-device-pixel-radio: 2) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/img-name-Tablet@2x.jpg);
+    }
+
+    .hero-title {
+      font-family: "Roboto", sans-serif;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.07; /* 111.111% */
+      letter-spacing: 0.02em;
+      text-align: center;
+
+      width: 496px;
+      color: var(--WHITE, #fff);
+      text-transform: capitalize;
+      margin-top: 112px;
+      margin-bottom: 36px;
+      margin: 0 auto;
+    }
+
+    .hero-button {
+      background-color: #4d5ae5;
+      color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      line-height: 1.5; /* 150% */
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      display: block;
+      min-width: 169px;
+      height: 56px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      align-self: flex-end;
+      margin: auto;
+      font-size: 16px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      margin-top: 36px;
+    }
+
+    .hero-button :hover,
+    .hero-button :focus {
+      background-color: #404bbf;
+    }
+
+    .modal {
+      width: 408px;
+    }
+    .review-form-description {
+      width: 360px;
+    }
+  }
+
+  .benefits-list-link {
+    display: none;
+  }
+
+  .list-benefits {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .benefits {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .benefits-title {
+    align-self: stretch;
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .benefits-text {
+    align-self: stretch;
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    width: 356px;
+  }
+
+  .benefits-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+  }
+
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-team-person {
+    max-width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    width: calc((100% - 72px) / 2);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #ffffff;
+  }
+
+  .our-section-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    padding-left: 0;
+  }
+
+  .list-portfolio {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: calc((100% - 72px) / 2);
+  }
+
+  /* footer */
+  .main-footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 584px;
+    row-gap: 72px;
+  }
+
+  .footer-logo-div {
+    margin-right: 24px;
+  }
+
+  .form-footer {
+    width: 584px;
+  }
+  .footer {
+    height: 456px;
+  }
+
+  .footer-form-label {
+    margin-right: 24px;
+  }
+  /* footer */
 }
 /* TABLET STYLES   */
 
@@ -1069,6 +1464,176 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     min-width: 1158px;
+  }
+
+  .main-header {
+    height: 72px;
+    border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+    background: var(--WHITE, #fff);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  }
+
+  .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .list-header {
+    margin-left: 76px;
+  }
+
+  .header-link {
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .current::after {
+    content: "";
+    display: flex;
+    width: 48px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--OCEAN, #404bbf);
+    border-radius: 2px;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+
+  .hero-title {
+    width: 496px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+    margin-bottom: 48px;
+  }
+
+  .first-section {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .hero-section {
+    background-color: #2e2f42;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-officeDesktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    background-position: center;
+
+    padding-bottom: 188px;
+    padding-top: 188px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resoludion: 2dppx),
+    screen and (min-device-pixel-radio: 2) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-officeDesktop@2x.jpg);
+    }
+  }
+
+  .hero-button {
+    margin-top: 48px;
+  }
+
+  .benefits {
+    padding: 120px 0 120px;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .benefits-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .list-benefits {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .benefits-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background: #f4f4fd;
+    fill: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .benefits-title {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .benefits-text {
+    color: #434455;
+
+    /* Body */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 264px;
   }
 }
 /* DESKTOP STYLES   */
