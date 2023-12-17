@@ -206,15 +206,12 @@ img {
 .modal-close-btn {
   width: 24px;
   height: 24px;
-  flex-shrink: 0;
-  fill: #2e2f42;
-  stroke-width: 1px;
+  stroke: #2e2f42;
   border-radius: 50%;
   line-height: 0px;
   position: absolute;
   top: 24px;
   right: 24px;
-  transition: fill 250ms linear;
   display: flex;
   align-items: center;
   justify-content: center;
