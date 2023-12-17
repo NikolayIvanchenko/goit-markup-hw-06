@@ -1044,7 +1044,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/mobile-Dark-bg.jpg);
+      url(../images/hero/people-office-mobile/people-office-mobile@1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
@@ -1060,7 +1060,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/mobile-Dark-bg@2x.jpg);
+        url(../images/hero/people-office-mobile/people-office-mobile@2x.jpg);
     }
   }
 
@@ -1285,7 +1285,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/img-name-Tablet.jpg);
+      url(../images/hero/people-office-tablet/people-office-tablet@1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
@@ -1303,7 +1303,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/img-name-Tablet@2x.jpg);
+        url(../images/hero/people-office-tablet/people-office-tablet@2x.jpg);
     }
 
     .hero-title {
@@ -1546,7 +1546,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-officeDesktop.jpg);
+      url(../images/hero/people-office-desktop/people-office-desktop@1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
@@ -1564,7 +1564,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-officeDesktop@2x.jpg);
+        url(../images/hero/people-office-desktop/people-office-desktop@2x.png);
     }
   }
 
