@@ -25,13 +25,13 @@
     <header class="main-header">
       <div class="container div-header">
         <nav class="page-nav">
-          <a class="header-logo" href="./index.html"
-            >Web<span class="accent">Studio</span></a
+          <a class="header-logo link" href="./index.html"
+            >Web<span class="accent-header">Studio</span></a
           >
           <ul class="list-header list">
             <li class="line">
               <a
-                class="header-link current studio link"
+                class="menu-link studio link"
                 href="./index.html"
                 target="_blank"
                 >Studio</a
@@ -45,14 +45,14 @@
             </li>
           </ul>
         </nav>
-        <address class="contact-info">
+        <address>
           <ul class="address list">
-            <li>
+            <li class="address-item">
               <a class="contacts-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-item">
               <a class="contacts-link link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -68,7 +68,7 @@
     <main>
       <!-- hero -->
       <section class="hero-section">
-        <div class="container first-section">
+        <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
@@ -77,14 +77,16 @@
       <section class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
-          <ul class="benefits-list list">
-            <li class="list-benefits">
+          <ul class="benefits-list">
+            <li class="list-benefits list">
               <div class="benefits-list-link">
                 <svg
                   class="benefits-list-icon"
                   width="64"
                   height="64"
                   aria-label="antenna"
+                  viewBox="0 0 64 64"
+                  fill="none"
                 >
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
@@ -98,10 +100,11 @@
             <li class="list-benefits">
               <div class="benefits-list-link">
                 <svg
-                  class="benefits-list-icon"
                   width="64"
                   height="64"
                   aria-label="clock"
+                  viewBox="0 0 64 64"
+                  fill="none"
                 >
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
@@ -115,7 +118,6 @@
             <li class="list-benefits">
               <div class="benefits-list-link">
                 <svg
-                  class="benefits-list-icon"
                   width="64"
                   height="64"
                   aria-label="diagram"
@@ -132,7 +134,6 @@
             <li class="list-benefits">
               <div class="benefits-list-link">
                 <svg
-                  class="benefits-list-icon"
                   width="64"
                   height="64"
                   aria-label="astronaut"
@@ -150,15 +151,14 @@
         </div>
       </section>
       <!-- Our Team -->
-      <section class="team-section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
-          <ul class="team-list list">
-            <li class="section-team-person">
+          <ul class="team-list">
+            <li class="section-team-person list">
               <img
               srcset="./images/our-team/mark-guerrero/mark-guerrero@1x.jpg 1x, ./images/our-team/mark-guerrero/mark-guerrero@2x.jpg 2x"
                 src="./images/our-team/mark-guerrero/mark-guerrero@1x.jpg"
-                class="photo-team"
                 alt="photo Mark Guerrero"
                 width="264"
                 height="260"
@@ -169,7 +169,7 @@
 
                 <ul class="cocial-nav-link list">
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -181,7 +181,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -193,7 +193,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -205,7 +205,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -224,7 +224,7 @@
               <img
               srcset="./images/our-team/tom-ford/tom-ford@1x.jpg 1x, ./images/our-team/tom-ford/tom-ford@2x.jpg 2x"
                 src="./images/our-team/tom-ford/tom-ford@1x.jpg"
-                class="photo-team"
+
                 alt="photo Tom Ford"
                 width="264"
                 height="260"
@@ -234,7 +234,7 @@
                 <p class="person-job">Frontend Developer</p>
                 <ul class="cocial-nav-link list">
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -245,7 +245,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -256,7 +256,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -267,7 +267,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -285,7 +285,7 @@
               srcset="./images/our-team/camila-garcia/camila-garcia@1x.jpg 1x, ./images/our-team/camila-garcia/camila-garcia@2x.jpg 2x"
                 src="./images/our-team/camila-garcia/camila-garcia@1x.jpg"
                 alt="photo Camila Garcia"
-                class="photo-team"
+
                 width="264"
                 height="260"
               />
@@ -294,7 +294,7 @@
                 <p class="person-job">Marketing</p>
                 <ul class="cocial-nav-link list">
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -305,7 +305,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -316,7 +316,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -327,7 +327,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -344,7 +344,7 @@
               <img
               srcset="./images/our-team/daniel-wilson/daniel-wilson@1x.jpg 1x , ./images/our-team/daniel-wilson/daniel-wilson@2x.jpg 2x"
                 src="./images/our-team/daniel-wilson/daniel-wilson@1x.jpg"
-                class="photo-team"
+
                 alt="photo Daniel Wilson"
                 width="264"
                 height="260"
@@ -354,7 +354,7 @@
                 <p class="person-job">UI Designer</p>
                 <ul class="cocial-nav-link list">
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -365,7 +365,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -376,7 +376,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -387,7 +387,7 @@
                     </a>
                   </li>
                   <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                    <a class="link-team link" href="">
                       <svg
                         class="team-contacts-icon-main"
                         width="16"
@@ -406,10 +406,10 @@
       <!-- Our Portfolio -->
       <section class="portfolio">
         <div class="container">
-          <h2 class="section-title">Our Portfolio</h2>
-          <ul class="our-section-portfolio list">
-            <li class="list-portfolio">
-              <div class="overley-photo-portfolio">
+          <h2 class="title-portfolio">Our Portfolio</h2>
+          <ul class="our-section-portfolio">
+            <li class="portfolio-list-item list list">
+              <div class="photo-over-div">
                 <picture>
                   <source srcset="./images/our-portfolio/desktop/banking-app/banking-app-desktop@1x.jpg 1x,
                   ./images/our-portfolio/desktop/banking-app/banking-app-desktop@2x.jpg 2x
@@ -439,19 +439,19 @@
                   height="300"
                 />
                 </picture>
-                <p class="overley">
+                <p class="text-over">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="portfolio-card">
-                <h3 class="portfolio-work">Banking App</h3>
-                <p class="portfolio-text">App</p>
+              <div class="portfolio-item-text">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="port-par">App</p>
               </div>
             </li>
-            <li class="list-portfolio">
-              <div class="overley-photo-portfolio">
+            <li class="portfolio-list-item list">
+              <div class="photo-over-div">
                 <picture>
                   <source srcset="./images/our-portfolio/desktop/cashless-payment/cashless-payment-desktop@1x.jpg 1x ,./images/our-portfolio/desktop/cashless-payment/cashless-payment-desktop@2x.jpg 2x" media=" (min-width: 1158px)" />
 
@@ -474,19 +474,20 @@
                 />
                 </picture>
                 
-                <p class="overley">
+                <p class="text-over">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="portfolio-card">
-                <h3 class="portfolio-work">Cashless Payment</h3>
-                <p class="portfolio-text">Marketing</p>
+
+              <div class="portfolio-item-text">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="port-par">Marketing</p>
               </div>
             </li>
-            <li class="list-portfolio">
-              <div class="overley-photo-portfolio">
+            <li class="portfolio-list-item list">
+              <div class="photo-over-div">
                 <picture>
                   <source
                     srcset="./images/our-portfolio/desktop/meditation-app/meditation-app-desktop@1x.jpg 1x,./images/our-portfolio/desktop/meditation-app/meditation-app-desktop@2x.jpg 2x "
@@ -512,19 +513,19 @@
                 />
                 </picture>
                 
-                <p class="overley">
+                <p class="text-over">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="portfolio-card">
-                <h3 class="portfolio-work">Meditation App</h3>
-                <p class="portfolio-text">App</p>
+              <div class="portfolio-item-text">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="port-par">App</p>
               </div>
             </li>
-            <li class="list-portfolio">
-              <div class="overley-photo-portfolio">
+            <li class="portfolio-list-item list">
+              <div class="photo-over-div">
                 <picture>
                   <source
                     srcset="./images/our-portfolio/desktop/taxi-service/taxi-service-desktop@1x.jpg 1x, ./images/our-portfolio/desktop/taxi-service/taxi-service-desktop@2x.jpg 2x"
@@ -545,19 +546,19 @@
                 />
                 </picture>
                 
-                <p class="overley">
+                <p class="text-over">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="portfolio-card">
-                <h3 class="portfolio-work">Taxi Service</h3>
-                <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-item-text">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="port-par">Marketing</p>
               </div>
             </li>
-            <li class="list-portfolio">
-              <div class="overley-photo-portfolio">
+            <li class="portfolio-list-item list">
+              <div class="photo-over-div">
                 <picture>
                 <source
                     srcset="./images/our-portfolio/desktop/screen-illustrations/screen-illustrations-desktop@1x.jpg 1x, ./images/our-portfolio/desktop/screen-illustrations/screen-illustrations-desktop@2x.jpg 2x "
@@ -583,19 +584,19 @@
                 />
                 </picture>
                 
-                <p class="overley">
+                <p class="text-over">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="portfolio-card">
-                <h3 class="portfolio-work">Screen Illustrations</h3>
-                <p class="portfolio-text">Design</p>
+              <div class="portfolio-item-text">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="port-par">Design</p>
               </div>
             </li>
-            <li class="list-portfolio">
-              <div class="overley-photo-portfolio">
+            <li class="portfolio-list-item list">
+              <div class="photo-over-div">
                 <picture>
                   <source
                     srcset="./images/our-portfolio/desktop/online-courses/online-courses-desktop@1x.jpg 1x, ./images/our-portfolio/desktop/online-courses/online-courses-desktop@2x.jpg 2x "
@@ -621,15 +622,15 @@
                 />
                 </picture>
                 
-                <p class="overley">
+                <p class="text-over">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="portfolio-card">
-                <h3 class="portfolio-work">Online Courses</h3>
-                <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-item-text">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="port-par">Marketing</p>
               </div>
             </li>
           </ul>
@@ -639,41 +640,41 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container main-footer-div">
-        <div class="footer-logo-div">
-          <a class="footer-logo link" href="./index.html"
-            >Web<span class="footer-accent">Studio</span></a
+        <div class="div-footer-logo">
+          <a class="logo-footer link" href="./index.html"
+            >Web<span class="logo-footer-st">Studio</span></a
           >
-          <p class="footer-text">
+          <p class="text-footer">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="footer-social">
+        <div class="footer-list-icons">
           <p class="p-footer">Social media</p>
           <ul class="cocial-nav-link-footer list">
-            <li class="team-cocial-link">
-              <a class="link-team footer-hover" href="">
+            <li class="icons-item-footer">
+              <a class="team-links footer-lnk link" href="">
                 <svg class="team-contacts-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="team-cocial-link">
-              <a class="link-team footer-hover" href="">
+              <a class="team-links footer-lnk link" href="">
                 <svg class="team-contacts-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="team-cocial-link">
-              <a class="link-team footer-hover" href="">
+              <a class="team-links footer-lnk link" href="">
                 <svg class="team-contacts-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="team-cocial-link">
-              <a class="link-team footer-hover" href="">
+              <a class="team-links footer-lnk link" href="">
                 <svg class="team-contacts-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -682,10 +683,10 @@
           </ul>
         </div>
         <!-- form-footer -->
-        <div class="form-footer">
+        <div class="footer-subscribe">
           <p class="p-footer-form">Subscribe</p>
-          <form class="form-footer">
-            <label class="footer-form-label">
+          <form class="footer-form-subscribe">
+            <label class="footer-lable">
               <input
                 class="email-footer-input"
                 name="input-email-footer-form"
@@ -695,7 +696,7 @@
             </label>
             <button class="footer-btn" type="submit">
               Subscribe
-              <svg class="footer-btn-icon" width="24" height="24" viewbox="0 0 24,24" aria-label="close modal icon">
+              <svg class="icon-subscribe" width="24" height="24" viewbox="0 0 24,24" aria-label="close modal icon">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
@@ -704,11 +705,11 @@
       </div>
     </footer>
     <!-- backdrop -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="form-close-btn" type="button">
           <svg
-            class="modal-close-btn-icon"
+            class="form-close-btn-icon"
             width="8"
             height="8"
             aria-label="close modal icon"
@@ -716,15 +717,15 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="technologies">
+        <p class="title-texst-backdrop">
           Leave your contacts and we will call you back
         </p>
-        <form class="review-form">
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label" for="user-name">Name</label>
+        <form class="form-backdrop">
+          <div class="form">
+            <label class="form-label" for="user-name">Name</label>
             <div class="review-form-input-wrapper">
               <input
-                class="review-form-input"
+                class="form-input"
                 id="user-name"
                 name="user-name"
                 type="text"
@@ -733,7 +734,7 @@
                 required
               />
               <svg
-                class="review-form-input-icon"
+                class="form-icons"
                 width="18"
                 height="18"
                 aria-label="icon user"
@@ -742,13 +743,13 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label" for="user-number"
+          <div class="form">
+            <label class="form-label" for="user-number"
               >Phone</label
             >
-            <div class="review-form-input-wrapper">
+            <div class="form-contacts-wrapper">
               <input
-                class="review-form-input"
+                class="form-input"
                 id="user-number"
                 name="user-number"
                 type="tel"
@@ -757,7 +758,7 @@
                 required
               />
               <svg
-                class="review-form-input-icon"
+                class="form-icons"
                 width="18"
                 height="24"
                 aria-label="icon user"
@@ -766,19 +767,19 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label" for="user-email"
+          <div class="form">
+            <label class="form-label" for="user-email"
               >Email</label
             >
-            <div class="review-form-input-wrapper">
+            <div class="form-contacts-wrapper">
               <input
-                class="review-form-input"
+                class="form-input"
                 id="user-email"
                 name="user-email"
                 type="email"
               />
               <svg
-                class="review-form-input-icon"
+                class="form-icons"
                 width="18"
                 height="24"
                 aria-label="icon user"
@@ -787,31 +788,31 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper textarea">
-            <label class="review-form-field-label" for="user-comment"
+          <div class="form-contacts-coments">
+            <label class="form-label" for="user-comment"
               >Comment</label
             >
             <textarea
-              class="review-form-comment text-area"
+              class="form-comment"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
               required
             ></textarea>
           </div>
-          <div class="review-form-checkbox-wrapper">
+          <div class="form-contacts-checkbox">
             <input
-              class="review-form-checkbox visually-hidden"
+              class="form-checkbox visually-hidden"
               id="user-privacy"
               name="user-privacy"
               type="checkbox"
               value="true"
               required
             />
-            <label class="review-form-checkbox-label" for="user-privacy">
-              <span class="review-form-own-checkbox">
+            <label class="form-label" for="user-privacy">
+              <span class="check-mark">
                 <svg
-                  class="review-form-own-checkbox-icon"
+                  class="icon-check-mark"
                   width="10"
                   height="8"
                   aria-label="checkmark icon"
@@ -819,47 +820,51 @@
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="accent-color" href="">Privacy Policy</a></label
-            >
+              <span class="texst-polisy">
+                I accept the terms and conditions of the
+              <a class="form-link" href="">Privacy Policy</a>
+            </span>
+              </label>
           </div>
-          <button class="review-form-submit-btn" type="submit">Send</button>
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>
     <!-- backdrop --> 
     <!-- MOBILE MENU -->
-    <div class="mobile-menu-wrapper">
-      <div class="container mobile-menu-container"><button class="mobile-menu-close-btn">
-        <svg class="mobile-menu-close-btn-icon" width="8" height="8" aria-label="mobile menu close icon">
+    <div class="mobile-menu-overlay">
+      <div class="container mobile-container"><button class="close-btn">
+        <svg class="mobile-menu-close-btn-icon" width="8" height="8" aria-label="mobile menu close icon" fill="2E2F42">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
       <nav class="mobile-menu-navigation">
         <ul class="mobile-menu list">
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link link studio-color" href="" >Studio</a>
+            <a class="mobile-nav-overlay-link mobile-studio link" href="" >Studio</a>
           </li>
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link link" href="" >Portfolio</a>
+            <a class="mobile-nav-overlay-link link" href="" >Portfolio</a>
           </li>
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link link" href="" >Contacts</a>
+            <a class="mobile-nav-overlay-link link" href="" >Contacts</a>
           </li>
         </ul>
       </nav>
       <div class="contacts-and-social">
-      <ul class="mobile-menu-social-list list">
-        <li class="mobile-menu-social-list-item">
-          <a href="" class="mobile-menu-social-list-link link tell-color">+11 (000) 111-11-11</a></li>
-        <li class="mobile-menu-social-list-item">
-          <a href="" class="mobile-menu-social-list-link link">info@devstudio.com</a></li>
+        <address>
+      <ul class="address-mobile-overlay list">
+        <li>
+          <a href="tel:+110001111111" class="address-mobile-overlay-link address-lnk link">+11 (000) 111-11-11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="address-mobile-overlay-link link">info@devstudio.com</a></li>
       </ul>
+      </address>
       <ul class="cocial-nav-link list">
-                  <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                  <li class="mobile-icon-list-item">
+                    <a class="mobile-icon-list-item-link link" href="">
                       <svg
-                        class="team-contacts-icon-main"
+                        class="icon-footer"
                         width="16"
                         height="16"
                         aria-label="instagram"
@@ -868,10 +873,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                  <li class="mobile-icon-list-item">
+                    <a class="mobile-icon-list-item-link link" href="">
                       <svg
-                        class="team-contacts-icon-main"
+                        class="icon-footer"
                         width="16"
                         height="16"
                         aria-label="witter"
@@ -880,10 +885,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                  <li class="mobile-icon-list-item">
+                    <a class="mobile-icon-list-item-link link" href="">
                       <svg
-                        class="team-contacts-icon-main"
+                        class="icon-footer"
                         width="16"
                         height="16"
                         aria-label="facebook"
@@ -892,10 +897,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-cocial-link">
-                    <a class="link-team" href="">
+                  <li class="mobile-icon-list-item">
+                    <a class="mobile-icon-list-item-link link" href="">
                       <svg
-                        class="team-contacts-icon-main"
+                        class="icon-footer"
                         width="16"
                         height="16"
                         aria-label="linkedin"
